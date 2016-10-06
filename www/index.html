@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Home - Música</title>
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="slider/sss.css">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="slider/sss.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<span class="centrar"> <img alt="banner" title="banner"
+				src="image/banner.jpg">
+			</span>
+			<h3>MÚSICA DE BANDAS EMERGENTES</h3>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="trending.html">TRENDING</a></li>
+				<li><a href="eventos.html">EVENTOS</a></li>
+				<li><a href="buscar.html">BUSCAR</a></li>
+				<li><a href="frm_login.html">SUBIR MÚSICA</a></li>
+				
+			</ul>
+		</nav>
+		<section id="principal">
+			<h1 class="titulos">¿Qué está sonando?</h1>
+			<div id="slideWrap">
+				<div class="slider">
+					<img src="image/img_001.jpg" width="878px" height="466px"> <img
+						src="image/img_002.jpg" width="878px" height="466px"> <img
+						src="image/img_003.jpg" width="878px" height="466px"> <img
+						src="image/img_004.jpg" width="878px" height="466px"> <img
+						src="image/img_005.jpg" width="878px" height="466px">
+				</div>
+			</div>
+
+		
+
+			<p></p>
+
+		</section>
+		<footer>
+			<p>
+				&copy; 2016 - <a class=link href=http://www.casahomero.com>www.musica.com</a>
+				- <span id="destacado">Todos los derechos reservados</span>
+			</p>
+		</footer>
+	</div>
+	<!-- fin wrapper  -->
+	<script>
+		$(document).ready(function() {
+			$('.slider').sss();
+		});
+	</script>
+</body>
+</html>

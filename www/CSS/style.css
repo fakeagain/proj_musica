@@ -1,0 +1,117 @@
+/* css externa --style.css-- */
+header {
+	text-align: center;
+	font-family: "Trebuchet MS";
+	background-color: #000000;
+	padding: 5px 15px 0 15px;
+	height: 264px;
+	color: #fff;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 1600px;
+	height:1080px;
+	border: 1px solid #371cde;
+	padding: 15px;
+}
+
+/*   Fecha de modificacion: 21/04     */
+body {
+	font-family: verdana, arial, sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav {
+	float: left;
+	font-color: #EAEAEA;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #4a1942;
+	width: 1600px; /* mod */
+	height: 60px; /* mod */
+}
+
+nav ul {
+	list-style-type: none;
+	/*margin-left: 580px;*/
+	display: block;
+	text-align:center;
+	
+	
+}
+
+nav ul li{
+	display:inline;
+	padding-right: 30px;
+	
+	
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	/*line-height: 1.5em;*/
+}
+
+nav ul li a:hover {
+	color: #893168;
+	/* color: #33332e*/
+}
+
+#principal {
+	background-color: #EAEAEA;
+	float: left;
+	width: 1580px;
+	padding: 15px 10px 0 10px; /* mod */
+	height: 680px;
+}
+
+/* Actualizacion 26/04 */
+footer {
+	clear: left;
+	width: 1590px;
+	background-color: #4a1942;
+	height: 50px;
+	padding: 5px 0 0px 10px;
+	text-align: center;
+}
+
+#destacado {
+	font-weight: bold;
+}
+
+footer p {
+	font-size: 12px;
+	line-height: 0.8em;
+	color: #fff;
+}
+
+.centrar {
+	display: block;
+	text-align:center;
+	
+}
+
+.link{
+	text-decoration:none;
+	color: #000
+	
+}
+
+#slideWrap {
+	float: left;
+	margin: 10px auto;
+	width: 878px;
+	height: 466px;
+}
+
+.titulos {
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	
+	
+}
